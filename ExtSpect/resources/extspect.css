@@ -1,0 +1,57 @@
+/* Tweak for Mac Safari */
+body.x-desktop
+{ font-size: 100% }
+
+#es-extspect .x-list-item-label, /* 2.0.1.1 only */
+#es-extspect .x-list-item, /* 2.0.1.1 only */
+#es-extspect .x-list-item-body /* for 2.1.1 only? */
+{  font-family: 'Arial Narrow', sans-serif;
+	/* font-size: 16px; height: 1em; line-height: 1em; */
+	min-height: 1em;
+	padding-top: 0px; /* was 2px */
+	padding-bottom: 0px; /* was 2px */
+	border-top: 0;
+	border-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* also works #es-extspect .x-list-item-body, */
+#es-extspect .x-list-item
+{ white-space: nowrap;
+	/* text-overflow: ellipsis; overflow: hidden; */
+}
+
+#es-extspect .x-list-item-first,
+#es-extspect .x-list-item .x-innerhtml,
+#es-extspect .x-list-header
+{  padding-top: 0px;
+	padding-bottom: 0px;
+	height: 0px !important;
+}
+
+/* Experiments
+
+Provides that a VBM ballot is timely cast if it is received by the voter's elections official no later than three days after election day and either of the following is satisfied:
+a) The ballot is postmarked or is time stamped or date stamped by a bona fide private mail delivery company on or before election day; or,
+b) If the ballot has no postmark, a postmark with no date, or an illegible postmark, the VBM ballot identification envelope is signed and dated on or before election day.
+
+#es-extspect .x-list .x-list-disclosure, 2.2.0
+*/
+
+/*
+http://www.sencha.com/blog/whats-new-in-sencha-touch-21
+#es-extspect .x-dock-body,
+*/
+
+/* More Experiments
+
+.es-tree-item-cls
+{ font-size: 12px;}
+.es-indent-item-cls
+{ font-size: 16px;}
+.es-properties-list-item-cls
+{ font-size: 16px;}
+*/
+
+
